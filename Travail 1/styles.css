@@ -20,7 +20,7 @@ li {
 }
 links li :hover {
   background: #666;
-  opacity 0.8;
+  opacity: 0.8;
   color: white;
   
 }
