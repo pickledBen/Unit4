@@ -1,48 +1,52 @@
 h1 {
+  /* affecte le titre dans le section après le deuxième image */
   text-decoration: underline;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 nav {
-  display:flex; 
+  /* affecte le section des liens */
+  display: flex; /* met les liens a l'horizontale */
   justify-content: center;
   align-items: center;
+  /* Garde les liens centrer*/
   background-color: rgb(151, 151, 151);
-  }
-  nav li {
-    margin: 0 15px;
-    }
+}
+nav li {
+  margin: 0 15px; /* le sépération entre les liens */
+}
 li {
-  list-style-type: none;
+  list-style-type: none; /* enlève les décorations des liens*/
   background-color: rgb(151, 151, 151);
   float: left;
   margin-right: 10px;
   font-family: Trebuchet MS;
 }
-links li :hover {
+li :hover {
+  /* Changes les couleurs et opacité quand ton souris touche les liens*/
   background: #666;
   opacity: 0.8;
   color: white;
-  
 }
-div img{
+div img {
   justify-content: center; /* Centre l'image horizontalement */
   margin-top: 5px; /* Marge au-dessus de l'image */
-  background-color: #8f155a;
   width: 100%;
 }
-section div p{
+section div p {
   font-family: Times;
   font-size: large;
-  
 }
-p::first-letter {
+p:first-letter {
   font-size: 25px;
   font-weight: bold;
   font-style: italic;
   font-family: Times;
+  /* Change seulement la première lettre*/
 }
-section div footer{
+section div footer {
   text-align: right;
   font-family: Trebuchet MS;
-  color:#666
+  color: #666;
+  /* Change le footer pour qu'il soit à la droite est soit gris*/
 }
