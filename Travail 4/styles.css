@@ -1,0 +1,225 @@
+@media (max-width: 768px) {
+  .MenuGauche {
+    display: none;
+  }
+  .header_input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 0.3em;
+    margin-left: 0.3em;
+    border-radius: 2em;
+  }
+  #mid {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1.25em;
+    color: #f1f3f7;
+    width: 10%;
+  }
+  #mid .material-icons {
+    font-size: 1.6em;
+    color: #181818;
+    text-decoration: none;
+  }
+  #right img {
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.25em;
+  }
+  #right h5 {
+    border-radius: 0.625em;
+    font-size: 0.5em;
+    align-items: center;
+    border-bottom: none;
+  }
+  #top {
+    margin-top: 1.25em;
+    width: 100%;
+    padding: 0;
+  }
+  figcaption {
+    font-size: 0.625em;
+  }
+  #droite figure {
+    position: relative;
+    margin-top: 2em;
+    margin-right: 0.625em;
+    width: 5em;
+    height: 10em;
+    box-shadow: 0px 0.4px 1em -0.95 rgba(0, 0, 0, 0.75);
+    border-radius: 0.625em;
+  }
+  p {
+    width: 50%;
+    margin-left: 1.25em;
+  }
+  #bouncer {
+    width: 25%;
+    margin-left: 12em;
+    margin-top: 1em;
+    border-radius: 35%;
+    background-color: white;
+    box-shadow: 0px 0.4em 0.9em -0.9em rgba(0, 0, 0, 0.75);
+    animation: flotte 2000ms linear infinite;
+  }
+  #droite img {
+    width: 50%;
+  }
+  #droite p {
+    width: 85%;
+    margin-top: 1em;
+    height: 3em;
+    padding: 0em 0.5em 0em 0.5em;
+    font-size: 1em;
+    font-family: cursive;
+    margin-left: 2em;
+    color: white;
+    border-radius: 0.95em;
+    background-color: rgb(125, 125, 216);
+    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  box-sizing: border-box; /* assure qu'il n'y a pas d'espace entre   */
+}
+header {
+  background-color: rgb(181, 224, 178);
+  width: 100%;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  box-shadow: 0 0.3125em 0.5em - 0.5em rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#left {
+  display: flex;
+  margin-left: 0%;
+}
+#left img {
+  height: 2em;
+  width: 2em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 0.2em;
+}
+.header_input {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  margin-left: 0.625em;
+  border-radius: 1em;
+  height: 3em;
+}
+.header_input .material-icons {
+  border: none;
+  background-color: transparent;
+  padding-top: 0.1875em;
+}
+.header_input input {
+  border: none;
+  background-color: #eff2f5;
+}
+
+#mid {
+  align-items: center;
+  display: flex;
+  margin-right: 4em;
+}
+#mid nav a {
+  text-decoration: none;
+  color: black;
+}
+#right {
+  align-items: center;
+  display: flex;
+}
+#right img {
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+}
+#right h5 {
+  margin-right: 0.5em;
+}
+#top {
+  display: flex;
+}
+.MenuGauche {
+  display: flex;
+  margin-top: 1em;
+  width: 14em;
+}
+.MenuGauche h4 {
+  margin-left: 1.25em;
+  font-size: 1.5625em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.MenuGauche:hover {
+  background-color: lightgray;
+}
+#Images {
+  display: flex;
+}
+#Images img {
+  margin-top: 2em;
+  margin-right: 0.625em;
+  width: 12em;
+  height: 20em;
+  box-shadow: 0px 0.4em 1em -0.95 rgba(0, 0, 0, 0.75);
+  border-radius: 0.625em;
+}
+#Images figure:hover {
+  transform: scale(1.07);
+}
+#Images figcaption {
+  position: relative;
+  top: -1.4em;
+  width: 12em;
+  border-bottom-left-radius: 0.625em;
+  border-bottom-right-radius: 0.625em;
+  background-color: #333;
+  color: white;
+  opacity: 0.75;
+}
+#droite p {
+  margin-top: ;
+  font-family: cursive;
+  color: white;
+  border-radius: 1em;
+  background-color: rgb(125, 125, 216);
+  text-align: center;
+}
+#bouncer {
+  width: 55%;
+  margin-left: 24em;
+  margin-top: 5em;
+  border-radius: 35%;
+  background-color: white;
+  box-shadow: 0px 0.4em 0.9em -0.9em rgba(0, 0, 0, 0.75);
+  animation: flotte 2000ms linear infinite;
+}
+@keyframes flotte {
+  0% {
+    transform: translateY(60px);
+  }
+  25% {
+    transform: translateY(-60px);
+  }
+  50% {
+    transform: translateY(60px);
+  }
+  75% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(60px);
+  }
+}

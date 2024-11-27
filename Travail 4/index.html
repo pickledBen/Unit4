@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mon magasin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <div id="left">
+      <img src="logo.png" />
+      <div class="header_input">
+        <h2 class="material-icons">search</h2>
+        <!-- crée un symbole d'une loupe -->
+        <input type="text" placeholder="Rechercher sur ma page" />
+        <!-- crée une barre de recherche -->
+      </div>
+    </div>
+    <div id="mid">
+      <nav>
+        <ul>
+          <!-- crée une liste de symboles qui sont des liens -->
+          <li class="material-icons"><a href="#"> home </a></li>
+          <li class="material-icons"><a href="#"> paid </a></li>
+          <li class="material-icons"><a href="#"> account_balance </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="right">
+      <!-- right contient le "profil" de l'utilisateur -->
+      <img src="compte.jpg" />
+      <h5>Prof De La Salle</h5>
+    </div>
+  </header>
+  <body>
+    <div id="top">
+      <div id="menu">
+        <!-- menu contient 4 syboles avec des titres toutes de la même class -->
+        <div class="MenuGauche">
+          <span class="material-icons"> face</span>
+          <h4>Contacts</h4>
+        </div>
+        <div class="MenuGauche">
+          <span class="material-icons"> chat</span>
+          <h4>Messages</h4>
+        </div>
+        <div class="MenuGauche">
+          <span class="material-icons"> shopping_cart</span>
+          <h4>Commandes</h4>
+        </div>
+        <div class="MenuGauche">
+          <span class="material-icons"> expand_more</span>
+          <h4>Plus</h4>
+        </div>
+      </div>
+      <div id="droite">
+        <!-- droite est au droite de menu -->
+        <div id="Images">
+          <figure>
+            <img src="hommes.jpg" />
+            <figcaption>Vêtements hommes</figcaption>
+          </figure>
+          <figure>
+            <img src="Femmes.jpg" />
+            <figcaption>Vêtements femmes</figcaption>
+          </figure>
+          <figure>
+            <img src="enfants.jpg" />
+            <figcaption>Vêtements enfants</figcaption>
+          </figure>
+          <figure>
+            <img src="vaisselles.jpg" />
+            <figcaption>Vaisselles</figcaption>
+          </figure>
+          <figure>
+            <img src="meubles.jpg" />
+            <figcaption>Meubles</figcaption>
+          </figure>
+          <figure>
+            <img src="jardin.jpg" />
+            <figcaption>Jardin</figcaption>
+          </figure>
+        </div>
+        <p>
+          <!-- petite ligne de text après les images -->
+          Bienvenue sur ma page. Vous pouvez magasiner en tout temps.Si vous
+          avez des questions ou des commentaires, veuillez nous contacter par
+          courriel.
+        </p>
+      </div>
+    </div>
+    <img src="magasin.jpg" id="bouncer" />
+    <!-- image qui bounce -->
+  </body>
+</html>
