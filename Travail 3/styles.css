@@ -1,0 +1,98 @@
+header {
+  display: flex;
+}
+header div {
+  display: flex;
+}
+header img {
+  width: 10em;
+  height: 5em;
+  display: flex;
+}
+nav {
+  margin-left: 13em;
+}
+
+nav a {
+  text-decoration: none; /* enlève les décorations du texte */
+  color: #333;
+}
+li {
+  list-style-type: none; /* enlève les décorations du texte */
+  float: left;
+  margin-right: 10px;
+  font-family: Trebuchet MS;
+  color: gray;
+}
+li :hover {
+  color: blue; /* quand le souris est dessus les liens ils devient bleu */
+}
+hr {
+  color: red;
+}
+body section figure img {
+  width: 45em;
+  border-radius: 1em 1em 1em 1em; /* courbe les coins de l'image */
+}
+body section figure:hover {
+  transform: scale(1.075);
+}
+body section figure figcaption {
+  position: relative;
+  bottom: 4.35em;
+  width: 42em;
+  padding: 1.5em;
+  border-bottom-left-radius: 1em; /* courbe les coins de l'image */
+  border-bottom-right-radius: 1em; /* courbe les coins de l'image */
+  /* met le figcaption en dessus de l'image et change le forme pour être le même que l'image*/
+  background-color: #333;
+  color: white;
+  opacity: 0.75;
+}
+#main div {
+  display: flex;
+}
+#main div img {
+  height: 10em;
+  width: 10em;
+  border-radius: 5em; /* change l'image à un cercle */
+}
+#main div h1 {
+  margin-top: 3em;
+}
+#main {
+  background-color: #e4e4e4;
+  width: 30em;
+}
+#big {
+  display: flex;
+}
+#Trump {
+  background-color: black;
+  border-radius: 3em;
+  width: 20em;
+}
+aside div img {
+  width: 8em;
+  height: 8em;
+  margin-left: 2em;
+}
+aside div h3 {
+  color: white;
+  margin-left: 2em;
+}
+aside div p {
+  color: white;
+  margin-left: 2em;
+}
+aside div p span {
+  color: red; /* change juste les mots specifié dans le html en rouge */
+}
+#sociaux {
+  display: flex;
+}
+#sociaux img {
+  width: 2em;
+  height: 2em;
+  margin-bottom: 1em;
+}
