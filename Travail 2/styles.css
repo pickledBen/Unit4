@@ -1,26 +1,24 @@
-h1 {
-  text-decoration: underline;
-}
 #titre {
   background-color: aqua;
-  text-align: center;
+  text-align: center; /* centre le texte */
   font-size: 23px;
+  /* change le couleur de l'arriere plan et le largeur du texte */
 }
 #sous-titre {
   color: aqua;
-  text-align: center;
+  text-align: center; /* centre le texte */
 }
 body {
   font-family: Times, serif;
   color: rgb(255, 255, 255);
   width: 100%;
-  background-image: url("fond.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("fond.jpg"); /* change l'arriere plan a l'image */
+  background-repeat: no-repeat; /* l'arriere plan ne répete pas */
+  background-size: cover; /* l'arriere plan couvre toute le body */
 }
 .citation {
   background-color: white;
-  display: flex;
+  display: flex; /* assure que l'image est a côté du texte pas en dessous */
   margin-left: 3em;
   margin-right: 3em;
 }
@@ -33,7 +31,7 @@ body {
   width: 6cm;
   height: 4cm;
   padding: 1em;
-  transform: rotate(25deg);
+  transform: rotate(25deg); /* tourne l'image dans citation de 25 degrées */
 }
 div p {
   font-size: 18px;
@@ -44,14 +42,18 @@ div p {
   transition: transform 0.3s ease;
 }
 div p:hover {
-  transform: scale(1.1);
+  transform: scale(
+    1.1
+  ); /* quand le souris est dessus le paragraphe dans div il aggrandise */
 }
 section p {
   color: aqua;
   margin-left: 4em;
   margin-right: 4em;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; /*change la vitesse de l'animation crée par le hover*/
 }
 section p:hover {
-  transform: scale(1.1);
+  transform: scale(
+    1.1
+  ); /* quand le souris est dessus le paragraphe dans div il aggrandise */
 }
